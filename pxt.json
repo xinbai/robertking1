@@ -1,0 +1,33 @@
+{
+    "name": "RobertKing1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "motor": "github:dfrobot/pxt-motor#dbd0aa1f999cc925785006df8ee6581307ec3140",
+        "ir_remote": "github:d3jd/ir#v1.0.12",
+        "BlockyTalky-BLE": "github:laboratoryforplayfulcomputation/pxt-blockytalkyble#v0.0.21"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
+}
